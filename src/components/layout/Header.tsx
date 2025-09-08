@@ -100,7 +100,7 @@ export function Header() {
             aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
           >
             {isDark ? (
-              <Sun className="h-5 w-5 text-gray-200" />
+              <Sun className="h-5 w-5 text-gray-700" />
             ) : (
               <Moon className="h-5 w-5 text-gray-700" />
             )}
