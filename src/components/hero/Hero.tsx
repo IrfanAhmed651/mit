@@ -26,9 +26,9 @@ export function Hero() {
         >
           Innovative IT Solutions Tailored for Your Business Needs.
           <br />
-          Whether you're looking to build a new website, improve security, or
-          streamline your operations, we're here to help you grow in the digital
-          world.
+          Whether you are looking to build a new website, improve security, or
+          streamline your operations, we are here to help you grow in the
+          digital world.
         </motion.p>
 
         <motion.div
