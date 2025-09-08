@@ -4,6 +4,7 @@ import { About } from "@/sections/About";
 import { Services } from "@/sections/Services";
 import { Portfolio } from "@/sections/Portfolio";
 import { Contact } from "@/sections/Contact";
+import BackToTop from "@/components/ui/backToTop";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Services />
       <Portfolio />
       <Contact />
+      <BackToTop />
     </Layout>
   );
 }

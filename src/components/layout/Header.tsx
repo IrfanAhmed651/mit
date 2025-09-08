@@ -25,7 +25,8 @@ export function Header() {
               offset={-80}
               duration={600}
               spy={true}
-              className=" cursor-pointer hover:text-indigo-600"
+              activeClass="active-link"
+              className=" cursor-pointer transition-colors duration-300 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500 hover:bg-clip-text hover:text-transparent"
             >
               About
             </Link>
@@ -37,7 +38,8 @@ export function Header() {
               offset={-80}
               duration={600}
               spy={true}
-              className="cursor-pointer hover:text-indigo-600"
+              activeClass="active-link"
+              className="cursor-pointer transition-colors duration-300 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500 hover:bg-clip-text hover:text-transparent"
             >
               Services
             </Link>
@@ -46,10 +48,11 @@ export function Header() {
             <Link
               to="portfolio"
               smooth={true}
-              offset={-80}
+              offset={0}
               duration={600}
               spy={true}
-              className="cursor-pointer hover:text-indigo-600"
+              activeClass="active-link"
+              className="cursor-pointer transition-colors duration-300 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500 hover:bg-clip-text hover:text-transparent"
             >
               Portfolio
             </Link>
@@ -58,10 +61,11 @@ export function Header() {
             <Link
               to="contact"
               smooth={true}
-              offset={-80}
+              offset={0}
               duration={600}
               spy={true}
-              className="cursor-pointer hover:text-indigo-600"
+              activeClass="active-link"
+              className="cursor-pointer transition-colors duration-300 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-500 hover:bg-clip-text hover:text-transparent"
             >
               Contact
             </Link>

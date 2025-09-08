@@ -5,7 +5,7 @@ import { CometCard } from "@/components/ui/comet-card";
 
 export function Portfolio() {
   return (
-    <section id="portfolio" className="py-20">
+    <section id="portfolio" className="pt-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-10">
           <h2 className="text-3xl font-bold">Selected Work</h2>
