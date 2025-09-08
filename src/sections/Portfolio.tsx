@@ -20,7 +20,7 @@ export function Portfolio() {
               <button
                 type="button"
                 className="my-6 flex w-80 cursor-pointer flex-col items-stretch 
-                           rounded-[16px] border bg-gray-800 dark:bg-transparent
+                           rounded-[16px] border-0 bg-transparent
                            p-2 saturate-0 hover:saturate-150 transition md:p-4"
                 aria-label={`View project ${n}`}
                 style={{
@@ -46,9 +46,9 @@ export function Portfolio() {
                 </div>
 
                 {/* Project info */}
-                <div className="mt-2 flex flex-shrink-0 items-center justify-between p-4 font-mono text-gray-100 dark:text-gray-100">
+                <div className="mt-2 flex flex-shrink-0 items-center justify-between p-4 font-mono text-gray-700 dark:text-gray-100">
                   <div className="text-xs">Project Title {n}</div>
-                  <div className="text-xs text-gray-100 dark:text-gray-100">
+                  <div className="text-xs text-gray-700 dark:text-gray-100">
                     #{n}
                   </div>
                 </div>

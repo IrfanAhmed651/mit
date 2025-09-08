@@ -57,7 +57,7 @@ export function Services() {
       };
 
   return (
-    <section id="services" className="py-24">
+    <section id="services" className="border-y py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-10 flex items-end justify-between">
           <div>
