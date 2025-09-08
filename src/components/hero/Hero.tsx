@@ -1,14 +1,14 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 // import { IconArrowRight } from "@tabler/icons-react";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 
 export function Hero() {
   return (
     <BackgroundBeamsWithCollision>
-      <div className="relative bg-darz-20 flex flex-col items-center justify-center min-h-[80vh] text-center px-6">
+      <div className="relative flex flex-col items-center justify-center min-h-[80vh] text-center px-6">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ export function Hero() {
         </motion.p>
 
         <motion.div
-          className="mt-8 flex justify-center gap-4"
+          className="mt-8 flex-wrap justify-center gap-3"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}

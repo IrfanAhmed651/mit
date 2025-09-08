@@ -22,6 +22,11 @@ export default function BackToTop() {
 
   const scrollToTop = () => {
     scroll.scrollToTop({ duration: 600, smooth: true });
+    // Move focus to <main> after the scroll completes
+    setTimeout(() => {
+      const main = document.getElementById("main");
+      if (main) (main as HTMLElement).focus();
+    }, 650);
   };
 
   return (

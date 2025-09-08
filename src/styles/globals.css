@@ -80,16 +80,20 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: linear-gradient(to top, #2a7b9b, #57c785, #eddd53);
     --foreground: #ededed;
   }
 }
 
 body {
+  /* background: linear-gradient(to bottom, #8a2387, #e94057, #f27121); */
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   /* scroll-behavior: smooth; */
+}
+.dark body {
+  background: var(--background);
 }
 
 .dark {
