@@ -8,7 +8,7 @@ import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-w
 export function Hero() {
   return (
     <BackgroundBeamsWithCollision>
-      <div className="relative flex flex-col items-center justify-center min-h-[80vh] text-center px-6">
+      <div className="relative flex flex-col items-center justify-center min-h-full text-center px-6">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
