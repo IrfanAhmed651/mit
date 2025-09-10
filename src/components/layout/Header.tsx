@@ -47,7 +47,7 @@ export function Header() {
   ] as const;
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-background/70 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+    <header className="fixed top-0 z-50 w-full bg-background/70 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 bg-black text-white rounded px-3 py-2"
