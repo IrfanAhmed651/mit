@@ -56,9 +56,9 @@ export const CometCard = ({
   // below your existing useMotionTemplate imports/vars
   const lightGlareBackground = useMotionTemplate`
     radial-gradient(circle at ${glareX}% ${glareY}%,
-      rgba(0, 0, 0,0.09) 20%,
-      rgba(0, 0, 0,0.75) 40%,
-      rgba(0, 0, 0,0.12) 80%)`;
+      rgba(0, 0, 0,0.12) 20%,
+      rgba(0, 0, 0,0.50) 35%,
+      rgba(0, 0, 0,0.12) 100%)`;
 
   const darkGlareBackground = useMotionTemplate`
     radial-gradient(circle at ${glareX}% ${glareY}%,
